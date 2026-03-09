@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chat IA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="chat-container">
+
+        <div class="rules-bar">
+
+            <div class="container-fluid d-flex gap-2 align-items-center">
+
+                <span class="fw-bold">
+                    <i class="bi bi-gear-fill"></i> Regras da IA
+                </span>
+
+                <select class="form-select form-select-sm w-auto" id="tom">
+                    <option value="normal">Tom normal</option>
+                    <option value="formal">Formal</option>
+                    <option value="amigavel">Amigável</option>
+                    <option value="professor">Professor</option>
+                </select>
+
+                <select class="form-select form-select-sm w-auto" id="detalhe">
+                    <option value="curto">Resposta curta</option>
+                    <option value="normal">Resposta normal</option>
+                    <option value="detalhada">Resposta detalhada</option>
+                </select>
+
+                <select class="form-select form-select-sm w-auto" id="idioma">
+                    <option value="pt">Português</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <div class="chat-header">
+            <h1>O que quer fazer hoje?</h1>
+        </div>
+
+        <div id="chat-box"></div>
+
+        <form class="chat-input" id="chat-input">
+
+            <textarea class="form-control" name="prompt" id="prompt" placeholder="Pergunte qualquer coisa"
+                autofocus></textarea>
+
+        </form>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
