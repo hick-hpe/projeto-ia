@@ -1,5 +1,9 @@
 # Projeto IA com Ollama
 
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000.svg?style=for-the-badge&logo=Express&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000.svg?style=for-the-badge&logo=Ollama&logoColor=white)
+
 Aplicação de chat com IA utilizando **Node.js**, **Express** e o **Ollama** para executar modelos localmente.
 
 ## 🛠️ Tecnologias utilizadas
@@ -17,6 +21,33 @@ Aplicação de chat com IA utilizando **Node.js**, **Express** e o **Ollama** pa
 - O modelo gera uma resposta.
 - A resposta é convertida de Markdown para HTML usando marked.
 - O HTML é sanitizado com DOMPurify para evitar XSS.
+
+## 🖥️ Tela da aplicação
+
+### Tela Inicial
+![Interface da aplicação](./docs/screenshot.png)
+
+### Tela Interação
+![alt text](./docs/conversa.png)
+
+### Barra Superior
+![Barra superior](./docs/barra.png)
+
+Na barra superior, é possível configurar o chat nos seguintes aspectos:
+
+- **Tom**:
+    - Tom normal
+    - Formal
+    - Amigável
+    - Professor
+- **Tipos de Resposta**:
+    - Resposta curta
+    - Resposta normal
+    - Resposta detalhada
+- **Idioma**:
+    - Português
+    - Inglêsa
+    - Espanhol
 
 ## 📦 Requisitos do projeto
 
