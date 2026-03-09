@@ -60,7 +60,7 @@ Instale os seguintes softwares antes de começar:
 
 - Clone o projeto:
     ```bash
-    git clone https://github.com/seu-usuario/projeto-ia
+    git clone https://github.com/hick-hpe/projeto-ia
     cd projeto-ia
     ```
 
