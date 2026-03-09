@@ -51,14 +51,10 @@ Na barra superior, é possível configurar o chat nos seguintes aspectos:
 
 ## 📦 Requisitos do projeto
 
-Antes de iniciar, você precisa ter instalado:
+Instale os seguintes softwares antes de começar:
 
-- Node.js (v18 ou superior)
-- Ollama
-
-Download do Ollama:
-
-https://ollama.com/download
+- [Node.js v18+](https://nodejs.org/en/download)
+- [Ollama](https://ollama.com/download)
 
 ## 🔧 Instalação
 
