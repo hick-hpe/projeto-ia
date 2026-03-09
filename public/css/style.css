@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     background-color: #e2e2e2;
@@ -9,14 +9,15 @@ body {
 .chat-container {
     width: 100%;
     max-width: 700px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
-.rules-bar{
-    background:#f8f9fa;
-    padding:8px;
+.rules-bar {
+    background: #f8f9fa;
+    padding: 8px;
     border-radius: 0 0 10px 10px;
 }
 
@@ -110,4 +111,40 @@ body {
     to {
         transform: translateY(-6px);
     }
+}
+
+
+.rule-select {
+    width: auto;
+}
+
+/* mobile */
+@media (max-width: 576px) {
+
+    .chat-header h1 {
+        font-size: 1.4rem;
+    }
+
+    .rules-bar {
+        padding: 10px;
+    }
+
+    .rule-select {
+        flex: 1 1 100%;
+    }
+
+    #chat-box {
+        padding: 15px;
+    }
+
+    .chat-input {
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    .text-message {
+        max-width: 90%;
+        font-size: 14px;
+    }
+
 }
